@@ -72,5 +72,50 @@
 // console.log(`Total number of people who can vote: ${canVote}`);
 // console.log(`Total number of people who cannot vote: ${cannotVote}`);
 
-
 //-------------------QUESTION 2------------------//
+
+// Challenge: Multiplication Table — Level 2
+
+// Requirements:
+// 	1.	Ask the user how many tables they want to print (for example: 3 tables).
+// 	2.	For each table, ask for the number (like 5, 7, or 9).
+// 	3.	Use a loop to print the multiplication table of that number from × 1 to × 10.
+// 	4.	After printing all tables, display how many tables were printed successfully.
+// 	5.	Add input validation:
+// 	•	If the user enters invalid or negative numbers, show a proper message and skip that table.
+// 	•	If the user cancels a prompt, stop the process immediately.
+
+// ------------------- SOLUTION ------------------ //
+
+// let tables = prompt("Enter the number of tables you want to print:");
+// if(tables === null){
+//     console.log("User cancelled the prompt.");
+// }
+
+// else{
+//     tables = Number(tables);
+//     if(isNaN(tables) || tables <= 0){
+//         console.log("Please enter a valid positive number.");
+//     }
+//     else{
+//         for(let i = 1; i <= tables; i++){
+//             let particularTable = prompt(`Enter the number for table ${i}:`);
+//             if(particularTable === null){
+//                 console.log("User cancelled the prompt.");
+//                 break;
+//             }
+//             else if(isNaN(particularTable) || particularTable.trim() === "" || particularTable < 0){
+//                 console.log("Please enter a valid non-negative number for the table.");
+//                 i--;
+//             }
+//             else{
+//                 particularTable = Number(particularTable);
+//                 console.log(`Multiplication Table of ${particularTable}: `);
+//                 for(let j = 1; j <= 10; j++){
+//                     console.log(`${particularTable} x ${j} = ${particularTable * j}`);
+//                 }
+//             }
+//         }
+//     }
+// }
+
