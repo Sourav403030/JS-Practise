@@ -309,6 +309,39 @@
 
 // }
 
+//----------------QUESTION 12------------------------//
+
+// Ask user 5 numbers. Count how many are positive
+// Use loop + condition + counter.
+
+//------------------SOLUTION-----------------------//
+
+// let positive = 0;
+// let negative = 0;
+
+// for(let i = 1; i <=5; i++){
+//     let userNumber = prompt("Enter a number");
+//     if(userNumber === null){
+//         console.log("User cancelled the prompt");
+//         break;
+//     }
+//     else if(userNumber.trim() === ""){
+//         console.log("Number cannot be empty");
+//         i--;
+//     }
+//     else{
+//         if(userNumber < 0){
+//             negative++;
+//         }
+//         else{
+//             positive++;
+//         }
+//     }
+// }
+
+// console.log(`Positive : ${positive}`);
+// console.log(`Negative : ${negative}`);
+
 
 
 
