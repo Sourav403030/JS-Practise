@@ -268,5 +268,29 @@
 //     }
 // }
 
+//-------------------QUESTION 10------------------------//
+
+// Print numbers between two user inputs
+// Input start and end using prompt() → print all between.
+
+//-------------------SOLUTION-------------------------//
+
+// let input1 = prompt("Enter first number");
+// let input2 = prompt("Enter second number");
+
+// if(input1 === null || input2 === null){
+//     console.log("User cancelled the prompt");
+// }
+// else{
+//     input1 = +input1;
+//     input2 = +input2;
+// }
+
+// for(let i = input1; i < input2; i++){
+//     console.log(i);
+// }
+
+
+
 
 
