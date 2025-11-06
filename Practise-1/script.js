@@ -241,3 +241,32 @@
 
 // console.log(sumOfOddNums);
 
+//---------------QUESTION 9-----------------------//
+
+// Keep asking number until user enters an even number
+// Use while loop. Stop only if input is even.
+
+//----------------SOLUTION-----------------------//
+
+// let number = prompt("Enter a number");
+
+// if(number === null){
+//     console.log("User cancelled the prompt");
+// } else {
+//     number = +number; 
+    
+//     while(number % 2 !== 0){
+//         let userInput = prompt("Enter a number");
+//         if(userInput === null){
+//             console.log("User cancelled the prompt");
+//             break;
+//         }
+//         number = +userInput;
+//         if(number % 2 === 0){
+//             console.log("Stopped");
+//         }
+//     }
+// }
+
+
+
