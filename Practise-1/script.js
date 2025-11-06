@@ -342,6 +342,41 @@
 // console.log(`Positive : ${positive}`);
 // console.log(`Negative : ${negative}`);
 
+//----------------QUESTION 13------------------------//
+
+// ATM Simulator – Allow 3 withdrawals
+// Start with ₹1000 balance. Ask withdrawal amount 3 times.
+// If enough balance → deduct
+// Else → print “Insufficient balance”
+
+//----------------SOLUTION--------------------//
+
+// let balance = 1000;
+// let attempts = 3;
+
+// while(attempts > 0){
+//     withdraw = prompt("Enter withdrawal amount:");
+//     attempts--;
+//     if(withdraw === null){
+//         console.log("User cancelled the prompt.");
+//         break;
+//     }
+//     else if(isNaN(withdraw) || withdraw.trim() === "" || Number(withdraw) < 0){
+//         console.log("Please enter a valid positive number.");
+//         attempts++;
+//     }
+//     else{
+//         withdraw = Number(withdraw);
+//         if(withdraw <= balance){
+//             balance -= withdraw;
+//             console.log(`Withdrawal successful. Remaining balance: ₹${balance}`);
+//         }
+//         else{
+//             console.log("Insufficient balance.");
+//             break;
+//         }
+//     }
+// }
 
 
 
