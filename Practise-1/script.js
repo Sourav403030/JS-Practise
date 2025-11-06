@@ -67,7 +67,7 @@
 //             }
 //         }
 //     }
-        
+
 // }
 // console.log(`Total number of people who can vote: ${canVote}`);
 // console.log(`Total number of people who cannot vote: ${cannotVote}`);
@@ -120,8 +120,11 @@
 // }
 
 //-------------------QUESTION 3------------------//
+
 // Count how many numbers between 1 and 15 are greater than 8
 // Loop and count conditionally.
+
+// ------------------- SOLUTION ------------------ //
 
 // let numbers = 0;
 // for(let i = 1; i <= 15; i++){
@@ -131,3 +134,62 @@
 // }
 
 // console.log(numbers);
+
+//--------------------QUESTION 4------------------//
+
+//Ask user for password and print access status
+// Hardcoded correct password. Compare with user input.
+
+//------------------- SOLUTION ------------------ //
+
+// let correctPassword = "secure123";
+
+// let password = prompt("Enter the password");
+
+// if (password === null) {
+//   console.log("Use cancelled the prompt.");
+// } 
+// else if (password.trim() === "") {
+//   console.log("Password cannot be empty.");
+// }
+// else if(password === correctPassword){
+//     console.log("Access Granted");
+// }
+// else{
+//     console.log("Access Denied");
+// }
+
+//-------------------QUESTION 5------------------//
+
+// Allow only 3 attempts to enter correct password
+// If user gets it right early, stop. If not → “Account locked”
+
+//------------------- SOLUTION ------------------ //
+
+// let correctPassword = "abcd123";
+// let attempts = 3;
+
+// while(attempts > 0){
+//     let password = prompt("Enter the password");
+//     attempts--;
+//     if(password === null){
+//         console.log("User cancelled the prompt.");
+//         break;
+//     }
+//     else if(password === correctPassword){
+//         console.log("Correct Password");
+//         break;
+//     }
+//     else{
+//         if(attempts === 0){
+//             console.log("Account locked");
+//         }
+//     }
+
+// }
+
+//-------------------QUESTION 6------------------//
+
+
+
+
