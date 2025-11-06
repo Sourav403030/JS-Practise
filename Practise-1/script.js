@@ -190,6 +190,26 @@
 
 //-------------------QUESTION 6------------------//
 
+// Ask user for words until they type “stop”. Count how many times they typed “yes”
+// Loop until "stop" is typed. Count "yes".
+
+// ------------------- SOLUTION ------------------ //
+
+// let word = prompt("Enter a word");
+// let yesCount = 0;
+
+// while(word !== "stop"){
+//     word = prompt("Enter a word");
+//     if(word === null){
+//         console.log("User cancelled the prompt.");
+//         break;
+//     }
+//     else if(word === "yes"){
+//         yesCount++;
+//     }
+// }
+
+// console.log(yesCount);
 
 
 
