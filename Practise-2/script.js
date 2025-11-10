@@ -107,3 +107,58 @@
 // }
 
 // filterEven([1,5,2,7,3,2,7,9,4,2,5,7,8,3,1,5,3,2]);
+
+//--------------QUESTION 6------------------//
+
+// 6. Library Book Tracker
+// Create an array of book objects. Each book has:
+//    -> { title, author, isAvailable }
+//    -> Write a function getAvailableBooks() that returns only the books where isAvailable is true.
+
+//----------------SOLUTION----------------//
+
+// let books = [
+//     {
+//         title: "Book-1 ",
+//         author: "Author-1",
+//         isAvailable: true
+//     },
+//     {
+//         title: "Book-2 ",
+//         author: "Author-2",
+//         isAvailable: false
+//     },
+//     {
+//         title: "Book-3 ",
+//         author: "Author-3",
+//         isAvailable: true
+//     },
+//     {
+//         title: "Book-4 ",
+//         author: "Author-4",
+//         isAvailable: true
+//     },
+//     {
+//         title: "Book-5 ",
+//         author: "Author-5",
+//         isAvailable: false
+//     },
+//     {
+//         title: "Book-6 ",
+//         author: "Author-6",
+//         isAvailable: false
+//     },
+//     {
+//         title: "Book-7 ",
+//         author: "Author-7",
+//         isAvailable: false
+//     },
+
+// ]
+
+// function getAvailableBooks(arr){
+//     let availableBooks = arr.filter(arr => arr.isAvailable === true);
+//     console.log(availableBooks);
+// }
+
+// getAvailableBooks(books);
