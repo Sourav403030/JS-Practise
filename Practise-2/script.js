@@ -66,3 +66,25 @@
 // }
 
 // getGrade(89);
+
+//-------------QUESTION 4------------------//
+
+// 4. Count vowels in a string
+//Write a function that counts how many vowels appear in a given string.
+
+//----------------SOLUTION----------------//
+
+// function vowelCounter(str){
+//     str = str.toLowerCase();
+
+//     let vowels = "aeiou";
+//     let count = 0;
+//     for(let i = 0; i < str.length; i++){
+//         if(vowels.includes(str[i])){
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// }
+
+// vowelCounter("Sourav Sanjay")
