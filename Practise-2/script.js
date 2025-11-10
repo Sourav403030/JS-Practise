@@ -88,3 +88,22 @@
 // }
 
 // vowelCounter("Sourav Sanjay")
+
+//--------------QUESTION 5------------------//
+
+// 5. Filter Even Numbers
+// Create a function that accepts an array of numbers and returns a new array containing only the even numbers.
+
+//----------------SOLUTION----------------//
+
+// function filterEven(arr, arr2 = []){
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] % 2 === 0){
+//             arr2.push(arr[i]);
+//         }
+//     }
+
+//     console.log(arr2);
+// }
+
+// filterEven([1,5,2,7,3,2,7,9,4,2,5,7,8,3,1,5,3,2]);
