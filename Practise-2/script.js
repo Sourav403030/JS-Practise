@@ -162,3 +162,32 @@
 // }
 
 // getAvailableBooks(books);
+
+//--------------QUESTION 7------------------//
+
+// 7. Shopping Cart – Add Item
+// Create an object cart with:
+// 	•	items: []
+// 	•	totalPrice: 0
+
+// Write a function addItem(name, price) that:
+// 	•	adds an item as an object to items
+// 	•	updates totalPrice
+
+//----------------SOLUTION----------------//
+
+// let cart = {
+//     items: [],
+//     totalPrice: 0,
+// }
+
+// function addItem(name, price){
+//     cart.items.push({name: name, price: price})
+//     cart.totalPrice += price;
+// }
+
+// addItem("maggie", 50);
+// addItem("dosa", 20);
+// addItem("eggs", 70);
+// addItem("bread", 40);
+// addItem("milk", 30);
